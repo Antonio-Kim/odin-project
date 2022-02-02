@@ -26,7 +26,7 @@ a {
 
 img {
   width: 500px;
-  height: 25w0px;
+  height: 250px;
 }
 p {
   margin: 8px 0 8px 0;
@@ -51,6 +51,15 @@ p {
   gap: 16px;
 }
 
+.top-button {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: #3882f6 solid 2px;
+}
+
 .nav h1 {
   font-size: 24px;
 }
@@ -69,6 +78,42 @@ p {
 .top-content button {
   background-color: #3882f6;
   color: #e5e7eb;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 75px 0 0 0;
+}
+
+.information-set {
+  display: flex;
+  margin: 75px 100px 75px 100px;
+  gap: 60px;
+  
+}
+
+.information-item {
+  width: 150px;
+}
+
+.information h1 {
+  color: black;
+  font-weight: 900;
+}
+
+.information img {
+  width: 150px;
+  height: 150px;
+  border: #3882f6 solid 3px;
+  border-radius: 10px;
+}
+
+.information p {
+  align-items: center;
+  justify-content: center;
+  width: 150px;
 }
 
 .testimonial {
