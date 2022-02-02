@@ -1,4 +1,5 @@
 # Landing Page Project
+![web page](./img/completed.png)
 This project consists of html and css and tries to replicate
 the website like this one: https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png
 
