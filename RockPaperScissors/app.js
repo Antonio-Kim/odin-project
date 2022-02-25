@@ -40,6 +40,12 @@ const playRound = (playerSelection, computerSelection) => {
   return result
 }
 
-const playerSelection = "Scissor";
-const computerSelection = computerPlay();
-console.log(playRound(playerSelection, computerSelection));
+const game = () => {
+  for (let i = 0; i < 5; i++) {
+    const playerSelection = prompt("Enter Rock, Paper, or Scissor: ");
+    const computerSelection = computerPlay();
+    console.log(playRound(playerSelection, computerSelection));
+  }
+}
+
+game();
